@@ -31,15 +31,30 @@ input{
     margin-left: 700px;
     margin-top: 10px;
    } 
-   
+
 .google-search {
     margin-left: 600px;
     margin-top: 10px;
 }
 
-   
+ul {
+  list-style-type: none;<!--for hiding the bullet on listing-->
+  margin-top: 200px;
+  padding: 0;
+  overflow: hidden;
+}
 
-    </style>
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+</style>
     </head>
 <div><body>
     <div><p>
@@ -50,7 +65,17 @@ input{
    <div> <button type="submit" onclick="https://www.google.com/" class="google-search">Google Search</button></div>
     <div><button type="submit" onclick="https://www.google.com/doodles" class="feeling-lucky">I'm Feeling Lucky</button></div>
  <div> <p class="google-offered">google offered in : <a href="https://www.google.com/setprefs?sig=0_WKwhLb5SNqBtDHUezPDwoJ5oDX4%3D&hl=ar&source=homepage&sa=X&ved=0ahUKEwjjtPue6vbyAhXGTcAKHWb6BvsQ2ZgBCA4">العربية</a>
-    </p></div>   
+    </p></div>
+    <div>
+        <p>
+            <ul>
+                <li><a href="#home">About</a></li>
+                <li><a href="#news">Advertising</a>
+                <li><a href="#contact">Business</a></li>
+                <li><a href="#about">How Search Works</a></li>
+              </ul>
+        </p>
+    </div>   
 </form>
 </div>
   </p> </div>
